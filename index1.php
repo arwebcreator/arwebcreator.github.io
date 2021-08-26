@@ -1,8 +1,8 @@
 <?php
-$servername =   'sql105.epizy.com';
-$username   =   'epiz_29544655';
-$password   =   'vNCk7p9pOb7';
-$dbname     =   'epiz_29544655_arwebdevelopment';
+$servername =   'localhost';
+$username   =   'root';
+$password   =   '';
+$dbname     =   'db_country';
 $connection =   mysqli_connect($servername, $username, $password,"$dbname");
 if(!$connection)
 {
